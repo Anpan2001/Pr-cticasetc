@@ -1,0 +1,33 @@
+body {
+    color: #bdbdbd;
+    background-color: #202020;
+    font-size: 1.25em;
+    line-height: 200%;
+    margin: 5%;
+    font-family: "メイリオ"
+    } /*Hola!*/
+
+.tekisuto {
+    font-family: "PMIngLiU-ExtB", "Yu Mincho" 
+}
+
+table{
+text-align: center;
+font-family: sans-serif;
+}
+
+thead {
+    background-color: #bdbdbd;
+    color: black;
+}
+
+tbody,
+tfoot {
+    background-color: bisque;
+    color: #202020;
+}
+
+.uriage {
+    color: #bdbdbd;
+    background-color: transparent;
+}
