@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets\styles\styles.css">
+</head>
+
+<body>
+    <form>
+        <label for="youshi">¿Te gusta el sitio?
+        </label>
+        <br>
+        <input id="youshi" type="checkbox">
+        <br>
+        <label for="riyuu">¿Por qué?</label>
+        <br>
+        <input id="riyuu" type="text" maxlength="100" placeholder="100 carácteres máximo" required>
+        <br>
+        <label>¿Tienes algún comentario más específico?</label>
+        <br>
+        <input id="comento" type="text" maxlength="250"
+        placeholder="250 carácteres máximo">
+    
+        <br>
+        <label for="meeru">Háznos saber tu correo electrónico para informarte en caso de que haya nuevos libros disponibles.</label>
+        <br>
+        <input id="meeru" type="email" placeholder="opcional">
+        <br>
+        <label for="hitsuke">¿Cuándo quieres recibir nuestras actualizaciones? (Indica un día de este mes, y recibirás actualizaciones el mismo día cada mes)</label>
+        <br>
+        <input id="hitsuke" type="date">
+        <br>
+        <label for="fairu">Si tienes el archivo de un libro, puedes subirlo aquí y lo añadiremos al compendio.</label>
+        <br>
+        <input id="fairu" type="file" accept=".epub, .azw3, .pdf">
+        <br>
+        <label for="pasu">Escribe tu contraseña para enviar.</label>
+        <br>
+        <input id="pasu" type="password" required>
+        <br>
+        <input type="submit" value="Enviar (Submit)">
+        <button>Enviar (Button)</button>
+    </form>
+<!-- Atributos para la etiqueta form:
+
+    - action: especifica a donde vamos a enviar los datos cuando le damos clic en el boton enviar
+    - method: es el metodo de envio de los datos (get, post)
+
+
+Atributos para la etiqueta input
+
+    - type: Modifica el tipo de campo que vamos crear
+    - name: Es el nombre del campo (como identificador)
+    *- value: Es el valor que tendra nuestro campo
+    - placeholder: Agregar texto dentro del input
+    - required: Es un atributo que nos permite definir que el campo es obligatorio o requerido.
+-->
+</body>
+
+</html>
